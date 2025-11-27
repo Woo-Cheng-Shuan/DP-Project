@@ -120,12 +120,12 @@ INSERT INTO payments (amount, method, payment_date, payment_status, deposit_amou
 VALUES
 (300.00, 'Credit Card', '2025-01-01', 'paid',     100.00, 'refunded',   '2025-01-03', 1),
 (250.00, 'Cash',        '2025-01-04', 'paid',     80.00,  'refunded',   '2025-01-06', 2),
-(500.00, 'TNG',         NULL, 'pending',  150.00, 'processing', NULL,         3),
+(500.00, 'TNG',         '2025-01-04', 'pending',  150.00, 'processing', NULL,         3),
 (280.00, 'Credit Card', '2025-02-10', 'paid',     90.00,  'forfeited',  NULL,         4),
 (400.00, 'Cash',        '2025-03-15', 'paid',     120.00, 'refunded',   '2025-03-17', 5),
-(350.00, 'TNG',         NULL, 'pending',  110.00, 'processing', NULL,         6),
+(350.00, 'TNG',         '2025-03-15', 'pending',  110.00, 'processing', NULL,         6),
 (600.00, 'Credit Card', '2025-04-01', 'paid',     200.00, 'refunded',   '2025-04-04', 7),
 (260.00, 'Cash',        '2025-04-05', 'refunded',     85.00,  NULL,   '2025-04-10', 8),
 (500.00, 'TNG',         '2025-04-12', 'paid',     170.00, 'refunded',   '2025-04-13', 9),
-(320.00, 'Credit Card', NULL, 'pending',  95.00,  'processing', NULL,         10);
+(320.00, 'Credit Card', '2025-04-12', 'pending',  95.00,  'processing', NULL,         10);
 select * from payments;
